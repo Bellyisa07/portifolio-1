@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
 </head>
-<body   style="background-color: rgb(196, 218, 238); ">
+<body style="background-color: rgb(203, 222, 240);">
     <hr>
     <h1 style="font-size:55px; text-align: center;">Meu portifólio</h1>
     <hr>
