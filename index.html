@@ -9,6 +9,7 @@
     <hr>
     <h1 style="font-size:55px; text-align: center;">Meu portifólio</h1>
     <hr>
+    <a href="index.html">Home</a><h6></h6><a href="Projetos.html">Projetos</a>
     <h1>Quem eu sou?</h1>
     <p style="font-size: 120%;">Eu sou Christyann Alike Santos Mesquita, cristão, estudante do <a href="https://acailandia.ifma.edu.br/">Instituto Federal do Maranhão Campus Açailândia</a>, <br>cursando Informática no segundo período e pretendo trabalhar com edes de Computadores.</p>
     
