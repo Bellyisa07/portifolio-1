@@ -17,7 +17,6 @@
     <h1 style="font-family: arial; color: rgb(255, 189, 66); text-align: center; font-size: 40px;">Minhas Qualidades</h1>
     <p style="font-family: arial;font-size: 120%; color:rgb(255, 222, 159); text-align: center;">Sou prestativo e ajudo quando posso, sou orgazinado, sou dedicado e estudioso, <br>gosto de praticar esportes, sempre busco melhorias e conhecimentos para minha vida.</p>
     <button onclick="document.location='Projetos.html'">Projetos</button>
-    
-    
+
 </body>
 </html>
