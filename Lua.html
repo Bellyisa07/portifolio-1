@@ -4,12 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lua</title>
+    <style>
+        .button {
+            background-color: black;
+            color: white;
+            width: 150px;
+            height: 40px;
+            border-style: solid;
+            border-width: 4px;
+            border-image: url(imagens/Meuportifolio3.jpg) 1 round;
+            border-radius: 5px;
+            font-family: arial;
+            font-size: 20px;
+            text-align: center;
+            transition-duration: 0.5s;
+            margin: 5px;
+            
+}
+
+.button span {
+  cursor: pointer;
+  
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\02C2';
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-left: 25px;
+  cursor: pointer;
+  
+}
+
+.button:hover span:after {
+  opacity: 1;
+  cursor: pointer;
+  left: 0;
+  
+}
+.button:hover{
+    background-color: black;
+            color: aquamarine;
+            width: 150px;
+            height: 40px;
+            border-style: solid;
+            border-image: url(imagens/Meuportifolio3.jpg) 1 round;
+            border-width: 4px;
+            font-family: arial;
+            font-size: 20px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 12px 16px 0 aquamarine,0 17px 50px 0 rgba(0,0,0,0.19);
+}
+    </style>
 </head>
 <body style="background-color: rgb(0, 0, 0);">
-    <hr>
-    <h1 style="color: rgb(255, 195, 83); font-size: 55px; text-align: center;">A Lua</h1>
-    <hr>
-    <a href="Projetos.html">Voltar</a>
+    <img margin-right="10px" src="imagens/Lua2.png" alt="Imagem principal da Lua" width="1565px" height="200px">
+    <button onclick="document.location='Projetos.html'" class="button" style="vertical-align:middle"><span>Voltar</span></button>
+    <h1>A</h1>
     <center>
         <img src="imagens/Lua.jpg" alt="Imagem da Lua" width="40%" height="40%">
     </center>
