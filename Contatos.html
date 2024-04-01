@@ -125,18 +125,149 @@
             box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
             
         }
-        
+        .enviar{
+            background-color: black;
+            color: white;
+            width: 150px;
+            height: 40px;
+            border-style: solid;
+            border-width: 4px;
+            border-color: blueviolet;
+            border-radius: 5px;
+            font-family: arial;
+            font-size: 20px;
+            text-align: center;
+            transition-duration: 0.4s;
+        }
+            
+        .enviar:hover{
+            background-color: black;
+            color: rgb(164, 86, 236);
+            width: 150px;
+            height: 40px;
+            border-style: solid;
+            border-color: blueviolet;
+            border-width: 4px;
+            font-family: arial;
+            font-size: 22px;
+            text-align: center;
+            cursor: pointer;
+            box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        .texto{
+            background-color: black;
+            color: white;
+            width: 650px;
+            height: 200px;
+            border-style: solid;
+            border-width: 4px;
+            border-color: blueviolet;
+            border-radius: 5px;
+            font-family: arial;
+            font-size: 18px;
+            
+            
+        }
+        .escolhaes{
+            background-color: black;
+            color: white;
+            width: 120px;
+            height: 40px;
+            border-style: solid;
+            border-width: 4px;
+            border-color: blueviolet;
+            border-radius: 5px;
+            font-family: arial;
+            font-size: 18px;
+            
+            
+        }
+        .texto2{
+            background-color: black;
+            color: white;
+            width: 250px;
+            height: 40px;
+            border-style: solid;
+            border-width: 4px;
+            border-color: blueviolet;
+            border-radius: 5px;
+            font-family: arial;
+            font-size: 18px;
+            
+            
+        }
     </style>
 
 </head>
 <body style="background-color: rgb(0, 0, 0); ">
 
     <img margin-right="10px" src="imagens/Contatos.png" alt="Imagem principal dos Contatos" width="1565px" height="200px" style="color: blueviolet;">
-    <button style="vertical-align: middle; margin-left: 20px;" onclick="document.location='index.html'" class="inicio"type="button">Início</button>
+    <button style="vertical-align: middle; " onclick="document.location='index.html'" class="inicio"type="button">Início</button>
     <button style="vertical-align: middle;" onclick="document.location='Projetos.html'" class="projetos"type="button" >Projetos</button>
     <button style="vertical-align: middle;" onclick="document.location='gostos3.html'" class="meus"type="button" >Meus Gostos</button>
     <button style="vertical-align: middle;" onclick="document.location='Contatos.html'" class="contatos"type="button" >Contatos</button>
-    <h1 style="color: rgb(165, 69, 255); font-size: 55px; text-align: center;">Meus contatos</h1>
+    <h1 style="color: rgb(165, 69, 255); font-size: 55px; text-align: center;margin-bottom: 140px">Meus contatos</h1>
+    
+    <form action="mailto:christyannalike@acad.ifma.edu.br" method="get">
+        <fieldset style="background-image: url(imagens/FundoGame.jpg); border-color: black;">
+            <br>
+            <h1 style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255);margin-left: 20px; font-size: 50px;">Formulário</h1>
+            <br><br>
+            <label style=" margin-left: 20px; font-family: arial; color: rgb(192, 125, 255); text-align: center; font-size: 160%;" for="name" ><b>Digite seu nome:<b></label><br>
+            <input class="texto2" style="margin-left: 20px;" type="text" name="name" id="name" placeholder="Digite seu nome aqui" required>
+            <br><br>
+            <label style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255); text-align: center; font-size: 160%;" for="email"><b>Digite seu email:<b></label><br>
+            <input class="texto2" style="margin-left: 20px;" type="email" name="email" id="email" placeholder="Digite seu email aqui" required>
+        
+            <br><br>
+            <h4 style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255);margin-left: 20px; font-size: 180%;">Marque sua profissao:</h4>
+            <input type="radio" name="profissao" id="profissao">
+            <label style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255); text-align: center; font-size: 160%;" for="profissao">Professor</label>
+            <br>
+            <input type="radio" name="profissao" id="profissao">
+            <label style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255); text-align: center; font-size: 160%;" for="profissao">Bombeiro</label>
+            <br>
+            <input type="radio" name="profissao" id="profissao">
+            <label style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255); text-align: center; font-size: 160%;" for="profissao">Policial</label> 
+            <br>
+            <input type="radio" name="profissao" id="profissao">
+            <label style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255); text-align: center; font-size: 160%;" for="profissao">Médico</label>
+            <br>
+            <input type="radio" name="profissao" id="profissao">
+            <label style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255); text-align: center; font-size: 160%;" for="profissao">Estudante</label> 
+            <br><br>
+
+            <h4 style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255); margin-left: 20px; font-size: 180%;">Marque qual meio você acessa a internet:</h4>
+            <input type="checkbox" name="internet" id="internet" value="celular">
+            <label style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255); text-align: center; font-size: 160%;" for="internet">Celular</label>
+            <br>
+            <input type="checkbox" name="internet" id="bdlarga" value="Banda Larga">
+            <label style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255); text-align: center; font-size: 160%;" for="internet">Banda Larga</label>
+            <br>
+            <input type="checkbox" name="internet" id="outros" value="Outros">
+            <label style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255); text-align: center; font-size: 160%;" for="internet">Outros</label>
+            <br>
+            <br><br>
+            
+            <h4 style="margin-left: 20px; font-family: arial; color: rgb(192, 125, 255); font-size: 180%;">Estado que você mora:</h4>
+            <select name="localidade" id="local" class="escolhaes">
+                <option value="Nenhum">Nenhum</option>
+                <option value="Maranhao">Maranhão</option>
+                <option value="Para">Pará</option>
+                <option value="Piaiu">Piauí</option>
+                <option value="Tocantins">Tocantins</option>
+            </select>
+            <br><br>
+
+            <textarea name="coment" id="coment" cols="70" rows="11" placeholder="Digite sua avaliação aqui" class="texto"></textarea>
+
+            <br><br>
+
+            <input type="submit" name="enviar" id="enviar" class="enviar"> 
+            
+            <br><br>
+    </fieldset>  
+    </form>
     <table style="width: 100%;">
         <tr>
             <td><img style="color: rgb(165, 69, 255); margin-left: 20px; margin-right: -18px;" src="imagens/IMGEmail.jpg" alt="Imagem do Símbolo do Email" width="30px" height="18px"></td>
@@ -155,8 +286,16 @@
 
     <table style="width: 20%; margin-top: -30px;">
         <tr>
-            <td><img style="color: rgb(165, 69, 255); margin-left: 20px; margin-right: -18px;" src="imagens/IMGInstagram.png" alt="Imagem do Símbolo do Telefone" width="33px" height="31px"></td>
+            <td><img style="color: rgb(165, 69, 255); margin-left: 20px; margin-right: -18px;" src="imagens/IMGInstagram.png" alt="Imagem do Símbolo do Instagram" width="33px" height="31px"></td>
             <td><p style="font-family: arial;font-size: 20px; color:rgb(192, 158, 255); margin-left: 17px; text-align: left;">Instagram: <a href="https://www.instagram.com/alikemesquita?igsh=MWl2eG5zZHd3ZHd5Yg==">alikemesquita</a></p></td>        
+        </tr>
+        
+    </table>
+
+    <table style="width: 20%; margin-top: -28px;">
+        <tr>
+            <td><img style="color: rgb(165, 69, 255); margin-left: 20px; margin-right: -18px;" src="imagens/IMGFacebook.png" alt="Imagem do Símbolo do Facebook" width="33px" height="31px"></td>
+            <td><p style="font-family: arial;font-size: 20px; color:rgb(192, 158, 255); margin-left: 17px; text-align: left;">Facebook: Alike Santos</p></td>        
         </tr>
         
     </table>
