@@ -58,3 +58,197 @@ background-color: black;
     cursor: pointer;
     box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+
+.inicio{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-style: solid;
+    border-width: 4px;
+    border-image: url(../imagens/Meuportifolio2.png) 1 round;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    transition-duration: 0.5s;
+            
+}
+            
+.inicio:hover{
+    background-color: black;
+    color: rgb(164, 86, 236);
+    width: 150px;
+    height: 40px;
+    border-style: solid;
+    border-image: url(../imagens/Meuportifolio2.png) 1 round;
+    border-width: 4px;
+    font-family: arial;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.projetos{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-style: solid;
+    border-width: 4px;
+    border-image: url(../imagens/Meuportifolio6.png) 1 round;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+            
+.projetos:hover{
+    background-color: black;
+    color: rgb(164, 86, 236);
+    width: 150px;
+    height: 40px;
+    border-style: solid;
+    border-image: url(../imagens/Meuportifolio6.png) 1 round;
+    border-width: 4px;
+    font-family: arial;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.meus{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-style: solid;
+    border-width: 4px;
+    border-image: url(../imagens/Meuportifolio2.png) 1 round;
+    border-radius: 4px;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+            
+.meus:hover{
+    background-color: black;
+    color: rgb(164, 86, 236);
+    width: 150px;
+    height: 40px;
+    border-style: solid;
+    border-image: url(../imagens/Meuportifolio2.png) 1 round;
+    border-width: 4px;
+    font-family: arial;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.contatos{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-style: solid;
+    border-width: 4px;
+    border-image: url(../imagens/Meuportifolio6.png) 1 round;
+    border-radius: 4px;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+            
+.contatos:hover{
+    background-color: black;
+    color: rgb(164, 86, 236);
+    width: 150px;
+    height: 40px;
+    border-style: solid;
+    border-image: url(../imagens/Meuportifolio6.png) 1 round;
+    border-width: 4px;
+    font-family: arial;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+            
+}
+        
+
+.enviar{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: blueviolet;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+    
+.enviar:hover{
+    background-color: black;
+    color: rgb(164, 86, 236);
+    width: 150px;
+    height: 40px;
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 4px;
+    font-family: arial;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgb(164, 86, 236),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.texto{
+    background-color: black;
+    color: white;
+    width: 650px;
+    height: 200px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: blueviolet;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 18px;
+    
+    
+}
+.escolhaes{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: blueviolet;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 18px;
+    
+    
+}
+.texto2{
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: blueviolet;
+    border-radius: 5px;
+    font-family: arial;
+    font-size: 18px;
+    
+}
